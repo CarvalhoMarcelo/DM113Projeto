@@ -19,3 +19,4 @@
 /home/bpx/posgraduacao/dm113/DM113Projeto/CadastroClienteClient/obj/Debug/net8.0/CadastroClienteClient.pdb
 /home/bpx/posgraduacao/dm113/DM113Projeto/CadastroClienteClient/obj/Debug/net8.0/CadastroClienteClient.genruntimeconfig.cache
 /home/bpx/posgraduacao/dm113/DM113Projeto/CadastroClienteClient/obj/Debug/net8.0/ref/CadastroClienteClient.dll
+/home/bpx/posgraduacao/dm113/DM113Projeto/CadastroClienteClient/obj/Debug/net8.0/CadastroClienteClient.sourcelink.json

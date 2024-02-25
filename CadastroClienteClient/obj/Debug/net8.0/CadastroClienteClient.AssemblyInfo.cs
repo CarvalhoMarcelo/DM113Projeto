@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroClienteClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9051fe64efeac504ab674629b13d5ed1bff895c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroClienteClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroClienteClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

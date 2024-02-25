@@ -10,10 +10,9 @@ namespace CadastroClienteClient
         {
             using var channel = GrpcChannel.ForAddress("http://localhost:5260");
             var client = new CadastroCliente.CadastroClienteClient(channel);
-
             
-            var listarReply = client.ListarClientes(new ListarClientesRequest { });
             // Listar clientes
+            var listarReply = client.ListarClientes(new ListarClientesRequest { });
             Console.WriteLine("Listar Response: " + listarReply.Clientes); 
 
             // Criar um novo cliente
@@ -21,6 +20,7 @@ namespace CadastroClienteClient
             Console.WriteLine($"Criar response: Id = {criarReply.Id}, Nome = {criarReply.Nome}, Cargo = {criarReply.Cargo}, Idade = {criarReply.Idade}");
 
             // Listar clientes
+            listarReply = client.ListarClientes(new ListarClientesRequest { });
             Console.WriteLine("Listar Response: " + listarReply.Clientes); 
 
             // Obter informações do cliente
@@ -36,6 +36,7 @@ namespace CadastroClienteClient
             Console.WriteLine($"Obter response atualizado: Id = {obterReplyAtualizado.Id}, Nome = {obterReplyAtualizado.Nome}, Cargo = {obterReplyAtualizado.Cargo}, Idade = {obterReplyAtualizado.Idade}");
 
             // Listar clientes
+            listarReply = client.ListarClientes(new ListarClientesRequest { });
             Console.WriteLine("Listar Response: " + listarReply.Clientes); 
 
             // Criar um novo cliente
@@ -43,6 +44,7 @@ namespace CadastroClienteClient
             Console.WriteLine($"Criar response: Id = {criarReplyNovo.Id}, Nome = {criarReplyNovo.Nome}, Cargo = {criarReplyNovo.Cargo}, Idade = {criarReplyNovo.Idade}");
 
             // Listar clientes
+            listarReply = client.ListarClientes(new ListarClientesRequest { });
             Console.WriteLine("Listar Response: " + listarReply.Clientes); 
 
             // Deletar cliente
@@ -50,6 +52,7 @@ namespace CadastroClienteClient
             Console.WriteLine($"Deletar response: Id = {deletarReply.Id}, Nome = {deletarReply.Nome}, Cargo = {deletarReply.Cargo}, Idade = {deletarReply.Idade}");
             
             // Listar clientes
+            listarReply = client.ListarClientes(new ListarClientesRequest { });
             Console.WriteLine("Listar Response: " + listarReply.Clientes); 
         }
     }
