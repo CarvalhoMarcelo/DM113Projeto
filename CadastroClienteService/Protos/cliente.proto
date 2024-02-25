@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option csharp_namespace = "CadastroClienteService";
+
+package cliente;
+
+service CadastroCliente {
+  rpc CriarCliente(CriarClienteRequest) returns (ClienteMessage);
+  rpc ObterCliente(ObterClienteRequest) returns (ClienteMessage);
+  rpc AtualizarCliente(AtualizarClienteRequest) returns (ClienteMessage);
+  rpc DeletarCliente(DeletarClienteRequest) returns (ClienteMessage);
+  rpc ListarClientes(ListarClientesRequest) returns (ListarClientesResponse);
+}
+
+message ClienteMessage {
+  int32 id = 1;
+  string nome = 2;
+  string cargo = 3;
+  int32 idade = 4;
+}
+
+message CriarClienteRequest {
+  ClienteMessage cliente = 1;
+}
+
+message ObterClienteRequest {
+  int32 id = 1;
+}
+
+message AtualizarClienteRequest {
+  ClienteMessage cliente = 1;
+}
+
+message DeletarClienteRequest {
+  int32 id = 1;
+}
+
+message ListarClientesRequest {}
+
+message ListarClientesResponse {
+  repeated ClienteMessage clientes = 1;
+}

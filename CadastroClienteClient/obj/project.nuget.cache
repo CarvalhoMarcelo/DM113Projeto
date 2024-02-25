@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "DS9JEddkKRnJ48PKjvu744a6/ZFOJ0BrS7vAWpLmAkGutGE9ScrpXiommRB/J/E/Fa9i+QV8/zjcz8jKjiOmxA==",
+  "success": true,
+  "projectFilePath": "/home/bpx/posgraduacao/dm113/DM113Projeto/CadastroClienteClient/CadastroClienteClient.csproj",
+  "expectedPackageFiles": [
+    "/home/bpx/.nuget/packages/google.protobuf/3.25.3/google.protobuf.3.25.3.nupkg.sha512",
+    "/home/bpx/.nuget/packages/grpc.core.api/2.61.0/grpc.core.api.2.61.0.nupkg.sha512",
+    "/home/bpx/.nuget/packages/grpc.net.client/2.61.0/grpc.net.client.2.61.0.nupkg.sha512",
+    "/home/bpx/.nuget/packages/grpc.net.common/2.61.0/grpc.net.common.2.61.0.nupkg.sha512",
+    "/home/bpx/.nuget/packages/grpc.tools/2.62.0/grpc.tools.2.62.0.nupkg.sha512",
+    "/home/bpx/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
